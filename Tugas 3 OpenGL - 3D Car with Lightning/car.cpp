@@ -496,7 +496,7 @@ int main()
         glBindTexture(GL_TEXTURE_2D, texture2);  
         // glActiveTexture(GL_TEXTURE1);
 
-        ourShader.use();
+        // ourShader.use();
         for(k=0;k<5;k++){
             //drawCircleFill(0.375f, -0.375f, 0.6f-k*0.001f, 0.6f, 60,1);
             for(l=0;l<20;l++){
